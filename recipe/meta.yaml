@@ -21,7 +21,7 @@ source:
     folder: quil-cli
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py>=313]
 
 requirements:

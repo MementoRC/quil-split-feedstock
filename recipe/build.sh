@@ -13,6 +13,7 @@ pushd "${SRC_DIR}"/quil-cli/quil-cli
   maturin build \
     --release \
     --strip \
+    --compatibility off \
     --out "${SRC_DIR}"/wheels
 popd
 
